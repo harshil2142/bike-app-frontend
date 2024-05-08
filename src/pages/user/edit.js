@@ -8,7 +8,7 @@ import axios from "axios";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl = process.env.BACKEND_URL;
 const edit = () => {
   const [token, settoken] = useState("");
   const [userdetail, setuserdetail] = useState({});

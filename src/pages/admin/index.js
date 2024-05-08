@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 import BikeComponent from "../../../components/BikeComponent";
 import { toast } from "react-toastify";
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl = process.env.BACKEND_URL;
 const index = () => {
   const [bikedata, setbikedata] = useState();
   const [ratedbike, setratedbike] = useState({});

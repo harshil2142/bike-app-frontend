@@ -10,7 +10,7 @@ import Link from "next/link";
 import { Input } from "@chakra-ui/react";
 import LoadingButton from '@mui/lab/LoadingButton';
 import { toast } from "react-toastify";
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl = process.env.BACKEND_URL;
 
 const addnewbike = () => {
   const router = useRouter();

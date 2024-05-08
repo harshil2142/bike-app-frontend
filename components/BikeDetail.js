@@ -106,7 +106,7 @@ const StyledMenu = styled((props) => (
   },
 }));
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl = process.env.BACKEND_URL;
 
 const BikeDetail = () => {
   const [bikedata, setbikedata] = useState([]);
@@ -117,7 +117,7 @@ const BikeDetail = () => {
   const [userInfo, setUserInfo] = useState(null);
   const [admin, setadmin] = useState(false);
   const router = useRouter();
-
+console.log(baseUrl,"baseUrl");
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {

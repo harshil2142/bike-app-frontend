@@ -13,7 +13,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl = process.env.BACKEND_URL;
 const style = {
     position: 'absolute',
     top: '50%',
